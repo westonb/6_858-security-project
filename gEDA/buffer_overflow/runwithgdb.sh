@@ -1,0 +1,1 @@
+gdb --args ~/projects/pcb/src/pcb ~/projects/6_858-security-project/gEDA/buffer_overflow/bad_led.pcb
