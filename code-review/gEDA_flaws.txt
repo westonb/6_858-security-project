@@ -1,0 +1,2016 @@
+Flawfinder version 1.27, (C) 2001-2004 David A. Wheeler.
+Number of dangerous functions in C/C++ ruleset: 160
+Examining ./gEDA/pcb/src/dolists.h
+Examining ./gEDA/pcb/src/find.c
+Examining ./gEDA/pcb/src/compat.c
+Examining ./gEDA/pcb/src/search.c
+Examining ./gEDA/pcb/src/data.h
+Examining ./gEDA/pcb/src/autoplace.c
+Examining ./gEDA/pcb/src/remove.h
+Examining ./gEDA/pcb/src/file.h
+Examining ./gEDA/pcb/src/const.h
+Examining ./gEDA/pcb/src/res_lex.c
+Examining ./gEDA/pcb/src/copy.c
+Examining ./gEDA/pcb/src/fontmode.c
+Examining ./gEDA/pcb/src/crosshair.c
+Examining ./gEDA/pcb/src/rats.c
+Examining ./gEDA/pcb/src/dbus-pcbmain.h
+Examining ./gEDA/pcb/src/puller.c
+Examining ./gEDA/pcb/src/mirror.c
+Examining ./gEDA/pcb/src/rtree.c
+Examining ./gEDA/pcb/src/autoplace.h
+Examining ./gEDA/pcb/src/hid.h
+Examining ./gEDA/pcb/src/relocate.c
+Examining ./gEDA/pcb/src/vendor.c
+Examining ./gEDA/pcb/src/free_atexit.h
+Examining ./gEDA/pcb/src/copy.h
+Examining ./gEDA/pcb/src/rubberband.h
+Examining ./gEDA/pcb/src/polygon.c
+Examining ./gEDA/pcb/src/polygon.h
+Examining ./gEDA/pcb/src/change.h
+Examining ./gEDA/pcb/src/data.c
+Examining ./gEDA/pcb/src/undo.h
+Examining ./gEDA/pcb/src/action.h
+Examining ./gEDA/pcb/src/hid/bom/bom.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/bom/.deps
+Examining ./gEDA/pcb/src/hid/batch/batch.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/batch/.deps
+Examining ./gEDA/pcb/src/hid/batch/batch_lists.h
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/ipcd356/.deps
+Examining ./gEDA/pcb/src/hid/ipcd356/ipcd356.c
+Examining ./gEDA/pcb/src/hid/lesstif/styles.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/lesstif/.deps
+Examining ./gEDA/pcb/src/hid/lesstif/dialogs.c
+Examining ./gEDA/pcb/src/hid/lesstif/netlist.c
+Examining ./gEDA/pcb/src/hid/lesstif/library.c
+Examining ./gEDA/pcb/src/hid/lesstif/menu.c
+Examining ./gEDA/pcb/src/hid/lesstif/lesstif_lists.h
+Examining ./gEDA/pcb/src/hid/lesstif/lesstif.h
+Examining ./gEDA/pcb/src/hid/lesstif/main.c
+Examining ./gEDA/pcb/src/hid/lesstif/xincludes.h
+Examining ./gEDA/pcb/src/hid/gtk/gui-pinout-preview.h
+Examining ./gEDA/pcb/src/hid/gtk/gui-drc-window.c
+Examining ./gEDA/pcb/src/hid/gtk/gtkhid-main.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-dialog-print.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-pinout-window.c
+Examining ./gEDA/pcb/src/hid/gtk/ghid-coord-entry.h
+Examining ./gEDA/pcb/src/hid/gtk/ghid-cell-renderer-visibility.h
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/gtk/.deps
+Examining ./gEDA/pcb/src/hid/gtk/ghid-route-style-selector.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-config.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-dialog.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-pinout-preview.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-keyref-window.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-misc.c
+Examining ./gEDA/pcb/src/hid/gtk/gtkhid.h
+Examining ./gEDA/pcb/src/hid/gtk/ghid-layer-selector.h
+Examining ./gEDA/pcb/src/hid/gtk/gui-library-window.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-trackball.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-netlist-window.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-output-events.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-utils.c
+Examining ./gEDA/pcb/src/hid/gtk/ghid-main-menu.c
+Examining ./gEDA/pcb/src/hid/gtk/ghid-cell-renderer-visibility.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-trackball.h
+Examining ./gEDA/pcb/src/hid/gtk/gtkhid-gdk.c
+Examining ./gEDA/pcb/src/hid/gtk/gtk_lists.h
+Examining ./gEDA/pcb/src/hid/gtk/ghid-route-style-selector.h
+Examining ./gEDA/pcb/src/hid/gtk/ghid-main-menu.h
+Examining ./gEDA/pcb/src/hid/gtk/ghid-layer-selector.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-drc-window.h
+Examining ./gEDA/pcb/src/hid/gtk/gui-top-window.c
+Examining ./gEDA/pcb/src/hid/gtk/gtkhid-gl.c
+Examining ./gEDA/pcb/src/hid/gtk/gui.h
+Examining ./gEDA/pcb/src/hid/gtk/gui-library-window.h
+Examining ./gEDA/pcb/src/hid/gtk/ghid-coord-entry.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-command-window.c
+Examining ./gEDA/pcb/src/hid/gtk/gui-log-window.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/ps/.deps
+Examining ./gEDA/pcb/src/hid/ps/ps_lists.h
+Examining ./gEDA/pcb/src/hid/ps/ps.c
+Examining ./gEDA/pcb/src/hid/ps/ps.h
+Examining ./gEDA/pcb/src/hid/ps/eps.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/lpr/.deps
+Examining ./gEDA/pcb/src/hid/lpr/lpr.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/png/.deps
+Examining ./gEDA/pcb/src/hid/png/png_lists.h
+Examining ./gEDA/pcb/src/hid/png/png.h
+Examining ./gEDA/pcb/src/hid/png/png.c
+Examining ./gEDA/pcb/src/hid/hidint.h
+Examining ./gEDA/pcb/src/hid/gcode/gcode.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/gcode/.deps
+Examining ./gEDA/pcb/src/hid/gcode/auxiliary.h
+Examining ./gEDA/pcb/src/hid/gcode/bitmap.h
+Examining ./gEDA/pcb/src/hid/gcode/trace.c
+Examining ./gEDA/pcb/src/hid/gcode/gcode_lists.h
+Examining ./gEDA/pcb/src/hid/gcode/trace.h
+Examining ./gEDA/pcb/src/hid/gcode/potracelib.h
+Examining ./gEDA/pcb/src/hid/gcode/decompose.c
+Examining ./gEDA/pcb/src/hid/gcode/decompose.h
+Examining ./gEDA/pcb/src/hid/gcode/lists.h
+Examining ./gEDA/pcb/src/hid/gcode/curve.h
+Examining ./gEDA/pcb/src/hid/gcode/curve.c
+Examining ./gEDA/pcb/src/hid/nelma/nelma.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/nelma/.deps
+Examining ./gEDA/pcb/src/hid/nelma/nelma_lists.h
+Examining ./gEDA/pcb/src/hid/gerber/gerber.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/gerber/.deps
+Examining ./gEDA/pcb/src/hid/common/trackball.c
+Examining ./gEDA/pcb/src/hid/common/trackball.h
+Examining ./gEDA/pcb/src/hid/common/hid_resource.c
+Examining ./gEDA/pcb/src/hid/common/hidgl.h
+Examining ./gEDA/pcb/src/hid/common/hid_resource.h
+Examining ./gEDA/pcb/src/hid/common/hidgl.c
+Warning: skipping directory with initial dot ./gEDA/pcb/src/hid/common/.deps
+Examining ./gEDA/pcb/src/hid/common/draw_helpers.c
+Examining ./gEDA/pcb/src/hid/common/extents.c
+Examining ./gEDA/pcb/src/hid/common/hidnogui.h
+Examining ./gEDA/pcb/src/hid/common/draw_helpers.h
+Examining ./gEDA/pcb/src/hid/common/hidnogui.c
+Examining ./gEDA/pcb/src/hid/common/actions.h
+Examining ./gEDA/pcb/src/hid/common/flags.c
+Examining ./gEDA/pcb/src/hid/common/hidinit.c
+Examining ./gEDA/pcb/src/hid/common/hidlist.h
+Examining ./gEDA/pcb/src/hid/common/actions.c
+Examining ./gEDA/pcb/src/hid/common/hidinit.h
+Warning: skipping directory with initial dot ./gEDA/pcb/src/.deps
+Examining ./gEDA/pcb/src/create.h
+Examining ./gEDA/pcb/src/set.h
+Examining ./gEDA/pcb/src/pcb-printf.c
+Examining ./gEDA/pcb/src/mymem.h
+Examining ./gEDA/pcb/src/buffer.c
+Examining ./gEDA/pcb/src/drill.h
+Examining ./gEDA/pcb/src/dbus.c
+Examining ./gEDA/pcb/src/mtspace.h
+Examining ./gEDA/pcb/src/layerflags.c
+Examining ./gEDA/pcb/src/buffer.h
+Examining ./gEDA/pcb/src/misc.h
+Examining ./gEDA/pcb/src/error.c
+Examining ./gEDA/pcb/src/lrealpath.h
+Examining ./gEDA/pcb/src/clip.h
+Examining ./gEDA/pcb/src/polygon1.c
+Examining ./gEDA/pcb/src/set.c
+Examining ./gEDA/pcb/src/pcb-printf.h
+Examining ./gEDA/pcb/src/line.h
+Examining ./gEDA/pcb/src/smartdisperse.c
+Examining ./gEDA/pcb/src/strflags.c
+Examining ./gEDA/pcb/src/print.c
+Examining ./gEDA/pcb/src/find.h
+Examining ./gEDA/pcb/src/report.c
+Examining ./gEDA/pcb/src/insert.c
+Examining ./gEDA/pcb/src/select.h
+Examining ./gEDA/pcb/src/remove.c
+Examining ./gEDA/pcb/src/edif.h
+Examining ./gEDA/pcb/src/global.h
+Examining ./gEDA/pcb/src/edif.c
+Examining ./gEDA/pcb/src/create.c
+Examining ./gEDA/pcb/src/box.h
+Examining ./gEDA/pcb/src/djopt.c
+Examining ./gEDA/pcb/src/strflags.h
+Examining ./gEDA/pcb/src/heap.h
+Examining ./gEDA/pcb/src/macro.h
+Examining ./gEDA/pcb/src/netlist.c
+Examining ./gEDA/pcb/src/free_atexit.c
+Examining ./gEDA/pcb/src/rats.h
+Examining ./gEDA/pcb/src/compat.h
+Examining ./gEDA/pcb/src/select.c
+Examining ./gEDA/pcb/src/resource.h
+Examining ./gEDA/pcb/src/getline.c
+Examining ./gEDA/pcb/src/main-test.c
+Examining ./gEDA/pcb/src/hid_draw.h
+Examining ./gEDA/pcb/src/clip.c
+Examining ./gEDA/pcb/src/action.c
+Examining ./gEDA/pcb/src/res_parse.c
+Examining ./gEDA/pcb/src/mtspace.c
+Examining ./gEDA/pcb/src/strcasestr.c
+Examining ./gEDA/pcb/src/toporouter.h
+Examining ./gEDA/pcb/src/vendor.h
+Examining ./gEDA/pcb/src/res_parse.h
+Examining ./gEDA/pcb/src/move.h
+Examining ./gEDA/pcb/src/rotate.h
+Examining ./gEDA/pcb/src/insert.h
+Examining ./gEDA/pcb/src/drill.c
+Examining ./gEDA/pcb/src/undo.c
+Examining ./gEDA/pcb/src/renumber.c
+Examining ./gEDA/pcb/src/file.c
+Examining ./gEDA/pcb/src/intersect.c
+Examining ./gEDA/pcb/src/thermal.c
+Examining ./gEDA/pcb/src/rtree.h
+Examining ./gEDA/pcb/src/dbus.h
+Examining ./gEDA/pcb/src/gpcb-menu.h
+Examining ./gEDA/pcb/src/mirror.h
+Examining ./gEDA/pcb/src/search.h
+Examining ./gEDA/pcb/src/vector.h
+Examining ./gEDA/pcb/src/error.h
+Examining ./gEDA/pcb/src/main.c
+Examining ./gEDA/pcb/src/move.c
+Examining ./gEDA/pcb/src/heap.c
+Examining ./gEDA/pcb/src/flags.c
+Examining ./gEDA/pcb/src/lrealpath.c
+Examining ./gEDA/pcb/src/parse_y.h
+Examining ./gEDA/pcb/src/intersect.h
+Examining ./gEDA/pcb/src/parse_l.h
+Examining ./gEDA/pcb/src/thermal.h
+Examining ./gEDA/pcb/src/core_lists.h
+Examining ./gEDA/pcb/src/rotate.c
+Examining ./gEDA/pcb/src/dbus-pcbmain.c
+Examining ./gEDA/pcb/src/line.c
+Examining ./gEDA/pcb/src/dbus-introspect.h
+Examining ./gEDA/pcb/src/crosshair.h
+Examining ./gEDA/pcb/src/autoroute.h
+Examining ./gEDA/pcb/src/report.h
+Examining ./gEDA/pcb/src/parse_l.c
+Examining ./gEDA/pcb/src/edif_parse.h
+Examining ./gEDA/pcb/src/parse_y.c
+Examining ./gEDA/pcb/src/autoroute.c
+Examining ./gEDA/pcb/src/mymem.c
+Examining ./gEDA/pcb/src/gettext.h
+Examining ./gEDA/pcb/src/draw.h
+Examining ./gEDA/pcb/src/draw.c
+Examining ./gEDA/pcb/src/djopt.h
+Examining ./gEDA/pcb/src/polyarea.h
+Examining ./gEDA/pcb/src/pcb-menu.h
+Examining ./gEDA/pcb/src/toporouter.c
+Examining ./gEDA/pcb/src/teardrops.c
+Examining ./gEDA/pcb/src/change.c
+Examining ./gEDA/pcb/src/layerflags.h
+Examining ./gEDA/pcb/src/print.h
+Examining ./gEDA/pcb/src/vector.c
+Examining ./gEDA/pcb/src/misc.c
+Examining ./gEDA/pcb/src/rubberband.c
+./gEDA/pcb/src/action.c:3542:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/action.c:3633:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/action.c:7374:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/action.c:7402:  [4] (shell) execvp:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/action.c:7469:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/action.c:7470:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/action.c:7471:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/action.c:7488:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/action.c:7489:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/action.c:7490:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/action.c:7736:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/action.c:7839:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/action.c:7851:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gEDA/pcb/src/action.c:7949:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/action.c:8065:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/action.c:8108:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/change.c:2483:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/change.c:2488:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/create.c:1035:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/djopt.c:230:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/edif.c:226:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/edif.c:240:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/edif.c:244:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/edif.c:3025:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/edif.c:6004:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/edif.c:6309:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/edif.c:6425:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/edif.c:6441:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/edif.c:6473:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/error.c:193:  [4] (format) vfprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/file.c:274:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/file.c:968:  [4] (shell) popen:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/file.c:1006:  [4] (format) sprintf:
+  Potential format string problem. Make format string constant. 
+./gEDA/pcb/src/file.c:1094:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/file.c:1105:  [4] (format) sprintf:
+  Potential format string problem. Make format string constant. 
+./gEDA/pcb/src/file.c:1124:  [4] (format) sprintf:
+  Potential format string problem. Make format string constant. 
+./gEDA/pcb/src/file.c:1172:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/file.c:1241:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/file.c:1242:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/file.c:1249:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/file.c:1304:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/file.c:1305:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/file.c:1306:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/file.c:1453:  [4] (shell) popen:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/file.c:1507:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/file.c:1571:  [4] (shell) popen:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/find.c:4142:  [4] (format) snprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited, and note that sprintf variations do not always \0-terminate. Use a
+  constant for the format specification. 
+./gEDA/pcb/src/hid/common/hidinit.c:818:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/common/hidinit.c:822:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/hid/common/hidnogui.c:276:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/hid/common/hidnogui.c:283:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/hid/common/hidnogui.c:327:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/hid/gcode/gcode.c:282:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/gcode/gcode.c:286:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/gcode/gcode.c:290:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/hid/gcode/gcode.c:291:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/hid/gerber/gerber.c:492:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/gerber/gerber.c:547:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/gerber/gerber.c:580:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/gerber/gerber.c:581:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/hid/gerber/gerber.c:638:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/gerber/gerber.c:821:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/hid/gerber/gerber.c:858:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/hid/gerber/gerber.c:861:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/hid/gtk/gui-top-window.c:1753:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/gtk/gui-top-window.c:2097:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gEDA/pcb/src/hid/gtk/gui-top-window.c:2099:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gEDA/pcb/src/hid/gtk/gui-top-window.c:2101:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:457:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:493:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:498:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:514:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:519:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:596:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:644:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/lesstif/dialogs.c:314:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/hid/lesstif/main.c:2159:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/lesstif/main.c:2164:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/lesstif/main.c:2927:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/lesstif/menu.c:938:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/lesstif/menu.c:1473:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gEDA/pcb/src/hid/lesstif/menu.c:1475:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gEDA/pcb/src/hid/lesstif/menu.c:1477:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gEDA/pcb/src/hid/lpr/lpr.c:25:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/hid/lpr/lpr.c:98:  [4] (shell) popen:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/hid/nelma/nelma.c:233:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/nelma/nelma.c:709:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/ps/ps.c:573:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/hid/ps/ps.c:575:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/ps/ps.c:579:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/hid/ps/ps.c:1487:  [4] (shell) popen:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/main.c:146:  [4] (format) vfprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/main.c:174:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:177:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:180:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:183:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:187:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:192:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/main.c:193:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/main.c:198:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:203:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:206:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/main.c:207:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/main.c:1724:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:1779:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:1789:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:1799:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:1809:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:1819:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/main.c:2081:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gEDA/pcb/src/misc.c:1382:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/misc.c:1387:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/misc.c:1391:  [4] (shell) popen:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/misc.c:1929:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/misc.c:2091:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/misc.c:2101:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/mymem.c:877:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/parse_l.c:2319:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/parse_l.c:2321:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/parse_l.c:2341:  [4] (shell) popen:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+./gEDA/pcb/src/parse_y.c:1185:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/print.c:108:  [4] (format) vsprintf:
+  Potential format string problem. Make format string constant. 
+./gEDA/pcb/src/rats.c:948:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/rats.c:1041:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/rats.c:1043:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gEDA/pcb/src/renumber.c:101:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/renumber.c:171:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/report.c:101:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/report.c:555:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/report.c:567:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/res_parse.c:618:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gEDA/pcb/src/strflags.c:308:  [4] (format) sprintf:
+  Potential format string problem. Make format string constant. 
+./gEDA/pcb/src/strflags.c:478:  [4] (format) sprintf:
+  Potential format string problem. Make format string constant. 
+./gEDA/pcb/src/strflags.c:596:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/strflags.c:611:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gEDA/pcb/src/toporouter.c:7058:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gEDA/pcb/src/action.c:7451:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gEDA/pcb/src/action.c:7499:  [3] (tmpfile) tmpnam:
+  Temporary file race condition. 
+./gEDA/pcb/src/autoplace.c:650:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/autoplace.c:652:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/autoplace.c:660:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/autoplace.c:661:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/autoplace.c:681:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/autoplace.c:681:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/autoplace.c:689:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/autoplace.c:845:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/compat.c:59:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/compat.c:72:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current
+  directory may be used. Use registry entry or GetWindowsDirectory to find
+  library path, if you aren't already. 
+./gEDA/pcb/src/compat.h:47:  [3] (random) random:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/hid/gtk/gui-config.c:202:  [3] (buffer) g_get_home_dir:
+  This function is synonymous with 'getenv("HOME")';it returns
+  untrustable input if the environment can beset by an attacker.  It can have any
+  content and length, and the same variable can be set more than once.
+  Check environment variables carefully before using them. 
+./gEDA/pcb/src/hid/gtk/gui-config.c:563:  [3] (buffer) g_get_home_dir:
+  This function is synonymous with 'getenv("HOME")';it returns
+  untrustable input if the environment can beset by an attacker.  It can have any
+  content and length, and the same variable can be set more than once.
+  Check environment variables carefully before using them. 
+./gEDA/pcb/src/hid/gtk/gui-config.c:753:  [3] (buffer) g_get_home_dir:
+  This function is synonymous with 'getenv("HOME")';it returns
+  untrustable input if the environment can beset by an attacker.  It can have any
+  content and length, and the same variable can be set more than once.
+  Check environment variables carefully before using them. 
+./gEDA/pcb/src/lrealpath.c:94:  [3] (buffer) realpath:
+  This function does not protect against buffer overflows, and some
+  implementations can overflow internally. Ensure that the destination buffer
+  is at least of size MAXPATHLEN, andto protect against implementation
+  problems, the input argument should also be checked to ensure it is no
+  larger than MAXPATHLEN. 
+./gEDA/pcb/src/lrealpath.c:132:  [3] (buffer) realpath:
+  This function does not protect against buffer overflows, and some
+  implementations can overflow internally. Ensure that the destination buffer
+  is at least of size MAXPATHLEN, andto protect against implementation
+  problems, the input argument should also be checked to ensure it is no
+  larger than MAXPATHLEN. 
+./gEDA/pcb/src/main.c:1617:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gEDA/pcb/src/main.c:1626:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gEDA/pcb/src/main.c:1706:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gEDA/pcb/src/main.c:1856:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gEDA/pcb/src/main.c:1859:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gEDA/pcb/src/main.c:1974:  [3] (random) srand:
+  This function is not sufficiently random for security-related
+  functions such as key and nonce creation. use a more secure technique for
+  acquiring random values. 
+./gEDA/pcb/src/misc.c:1851:  [3] (buffer) getwd:
+  This does not protect against buffer overflows by itself, so use with
+  caution. Use getcwd instead. 
+./gEDA/pcb/src/action.c:486:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:494:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/action.c:737:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:1592:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/action.c:1620:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/action.c:3370:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/action.c:3381:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/action.c:3631:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:6165:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/action.c:6203:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/action.c:6253:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/action.c:6561:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/action.c:6837:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/action.c:6952:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:6961:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/action.c:7110:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:7488:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7489:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7490:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7504:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7511:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7725:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:7750:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:7805:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:7811:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/action.c:7821:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/action.c:7849:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+./gEDA/pcb/src/action.c:7879:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7893:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7898:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7901:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7906:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7911:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7912:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/action.c:7944:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/action.c:7956:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7969:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7976:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/action.c:7984:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older
+  System V systems). 
+./gEDA/pcb/src/buffer.c:952:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/buffer.c:994:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/buffer.c:1005:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/buffer.c:1046:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/buffer.c:1049:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/buffer.c:1079:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/change.c:2461:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/create.c:1033:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/djopt.c:121:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/djopt.c:188:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/djopt.c:196:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/djopt.c:200:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/djopt.c:219:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/djopt.c:1963:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/djopt.c:1964:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/draw.c:633:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/draw.c:708:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/draw.c:715:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/drill.c:281:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/edif.c:3271:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/edif.c:3458:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/edif.c:5877:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/edif.c:5980:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/edif.c:5981:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/edif.c:5989:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/edif.c:6075:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/edif.c:6157:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/edif.c:6518:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/file.c:110:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:193:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/file.c:194:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/file.c:267:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:298:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/file.c:916:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/file.c:941:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/file.c:1001:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1149:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1150:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1330:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1331:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1426:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1539:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1540:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1556:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/file.c:1660:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/file.c:1666:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/free_atexit.c:120:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/gettext.h:219:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/gettext.h:221:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/gettext.h:229:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/gettext.h:231:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/gettext.h:265:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/gettext.h:267:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/gettext.h:275:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/gettext.h:277:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/global.h:127:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/global.h:790:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/batch/batch.c:125:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/bom/bom.c:335:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/bom/bom.c:355:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/bom/bom.c:552:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/common/actions.c:197:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/common/flags.c:111:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/common/flags.c:208:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/common/flags.c:213:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/common/hid_resource.c:79:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/common/hidinit.c:526:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/common/hidinit.c:674:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/common/hidinit.c:677:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/common/hidinit.c:745:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/common/hidinit.c:747:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/common/hidinit.c:794:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/common/hidnogui.c:293:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/bitmap.h:131:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gcode/decompose.c:90:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/gcode.c:277:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/gcode.c:461:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/gcode/gcode.c:496:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/gcode.c:500:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/gcode/gcode.c:546:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/gcode.c:547:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/gcode.c:548:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/gcode.c:549:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/gcode.c:597:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/gcode/gcode.c:598:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/gcode/gcode.c:599:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/gcode/gcode.c:600:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/gcode/gcode.c:601:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/gcode/gcode.c:602:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/gcode/gcode.c:603:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/gcode/gcode.c:604:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/gcode/gcode.c:769:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gcode/gcode.c:840:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gcode/gcode.c:952:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gcode/gcode.c:1299:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gerber/gerber.c:485:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gerber/gerber.c:486:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/gerber/gerber.c:540:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gerber/gerber.c:541:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/gerber/gerber.c:666:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gerber/gerber.c:689:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gerber/gerber.c:774:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gerber/gerber.c:800:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/gtk/gtkhid-main.c:1914:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/gtk/gtkhid-main.c:1959:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/gtk/gtkhid-main.c:1962:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/gtk/gtkhid-main.c:2170:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/gtk/gui-config.c:245:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/gtk/gui-config.c:376:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gtk/gui-config.c:441:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/gtk/gui-config.c:445:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/gtk/gui-config.c:505:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/gtk/gui-config.c:525:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/gtk/gui-config.c:724:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/gtk/gui-dialog.c:538:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/gtk/gui-drc-window.c:279:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gtk/gui-drc-window.c:281:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gtk/gui-netlist-window.c:369:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gtk/gui-netlist-window.c:409:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/gtk/gui-top-window.c:1903:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/gtk/gui-top-window.c:1971:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:88:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:89:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:137:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:446:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:447:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:461:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:503:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:524:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:538:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/ipcd356/ipcd356.c:595:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/dialogs.c:709:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/dialogs.c:744:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/dialogs.c:758:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/dialogs.c:783:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/dialogs.c:1085:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/dialogs.c:1138:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/main.c:587:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/lesstif/main.c:592:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/lesstif/main.c:761:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/main.c:1139:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/lesstif/main.c:2068:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/main.c:2131:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/lesstif/main.c:2144:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/lesstif/main.c:2688:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/lesstif/main.c:2736:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/main.c:2743:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/lesstif/main.c:2922:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/menu.c:152:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/lesstif/menu.c:485:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/lesstif/menu.c:520:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/hid/lesstif/menu.c:598:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/menu.c:601:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/menu.c:605:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/menu.c:609:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/menu.c:645:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/menu.c:653:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/lesstif/menu.c:658:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/hid/lesstif/menu.c:661:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/menu.c:673:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/menu.c:676:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/lesstif/menu.c:928:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/menu.c:934:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/menu.c:1132:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lesstif/styles.c:98:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/lpr/lpr.c:70:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/lpr/lpr.c:71:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/nelma/nelma.c:417:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/nelma/nelma.c:438:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/nelma/nelma.c:612:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/nelma/nelma.c:710:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/nelma/nelma.c:857:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/nelma/nelma.c:873:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/png/png.c:579:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/png/png.c:658:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/png/png.c:979:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/png/png.c:1518:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/hid/png/png.c:1544:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/hid/ps/eps.c:247:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/ps/eps.c:312:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/ps/eps.c:334:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/ps/ps.c:566:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/ps/ps.c:582:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/hid/ps/ps.c:667:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/ps/ps.c:702:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/hid/ps/ps.c:1491:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/layerflags.c:60:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/layerflags.c:196:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/layerflags.c:205:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/lrealpath.c:93:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/lrealpath.c:148:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/main.c:163:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/main.c:189:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+./gEDA/pcb/src/main.c:436:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/main.c:437:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/main.c:2029:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/main.c:2030:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/misc.c:1017:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/misc.c:1118:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/misc.c:1175:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/misc.c:1567:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/misc.c:1914:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/misc.c:1924:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/misc.c:2073:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/misc.c:2207:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/misc.c:2231:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/misc.c:2538:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/misc.c:2633:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/misc.c:2645:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/misc.c:2650:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/move.c:1046:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/move.c:1066:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/move.c:1170:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/move.c:1193:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/netlist.c:453:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/parse_l.c:2323:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/parse_y.c:1431:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/parse_y.c:1618:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/parse_y.c:2728:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/parse_y.c:2730:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/parse_y.c:2743:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/parse_y.c:2750:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/parse_y.c:2799:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/parse_y.c:2801:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/pcb-printf.c:281:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/pcb-printf.c:291:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/pcb-printf.h:132:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/polyarea.h:64:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/print.c:102:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/print.c:238:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/puller.c:1371:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/puller.c:1372:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/puller.c:1373:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/puller.c:1390:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/puller.c:1391:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/puller.c:1392:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/rats.c:192:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/rats.c:193:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/rats.c:918:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/rats.c:920:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/rats.c:997:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/rats.c:1000:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/rats.c:1027:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/renumber.c:64:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/renumber.c:74:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/renumber.c:75:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/renumber.c:96:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/renumber.c:98:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/renumber.c:100:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/renumber.c:135:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/renumber.c:145:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/renumber.c:146:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/renumber.c:166:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/renumber.c:168:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/renumber.c:170:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/report.c:146:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/report.c:149:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/report.c:151:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/report.c:167:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/report.c:477:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/report.c:489:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/report.c:525:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/report.c:544:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/report.c:695:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/report.c:807:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/report.c:862:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/report.c:960:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/res_parse.c:864:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/res_parse.c:1051:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/res_parse.c:1569:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/select.c:858:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/set.c:344:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/set.c:350:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/strflags.c:387:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/strflags.c:394:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/strflags.c:397:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/strflags.c:400:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/strflags.c:403:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/strflags.c:407:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/strflags.c:605:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gEDA/pcb/src/toporouter.c:2509:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/toporouter.c:2511:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gEDA/pcb/src/toporouter.c:2512:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gEDA/pcb/src/toporouter.c:7057:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gEDA/pcb/src/toporouter.c:7780:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gEDA/pcb/src/vector.c:238:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gEDA/pcb/src/vendor.c:893:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+
+Hits = 487
+Lines analyzed = 150663 in 1.67 seconds (129191 lines/second)
+Physical Source Lines of Code (SLOC) = 108961
+Hits@level = [0]   0 [1]   0 [2] 326 [3]  25 [4] 136 [5]   0
+Hits@level+ = [0+] 487 [1+] 487 [2+] 487 [3+] 161 [4+] 136 [5+]   0
+Hits/KSLOC@level+ = [0+] 4.46949 [1+] 4.46949 [2+] 4.46949 [3+] 1.47759 [4+] 1.24815 [5+]   0
+Dot directories skipped = 13 (--followdotdir overrides)
+Minimum risk level = 2
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!

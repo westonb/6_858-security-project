@@ -1,0 +1,14 @@
+action.c:7710 ActionImport sprintf to fixed sized buffer with user input on line 7736. This is a command line argument though. 
+
+change.c:2458 QueryInputAndChangeObjectName sprintf to fixed sized buffer with pin number on line 2483 and line 2488
+
+create.c:1030 CreateNewNet sprintf to fixed sized buffer. This is called by the parser. 
+
+
+possible: file.c:1147 LoadNewlibFootprintsFromDir mess things up with symbolic links?
+
+
+0x136f000          0x1b70000   0x801000        0x0 [heap]
+
+
+	

@@ -1,0 +1,784 @@
+Flawfinder version 1.27, (C) 2001-2004 David A. Wheeler.
+Number of dangerous functions in C/C++ ruleset: 160
+Examining ./gerbv/src/gerb_file.c
+./gerbv/src/attribute.c:54:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/callbacks.c:73:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/draw-gdk.c:49:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/draw.c:42:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/drill.c:60:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/drill_stats.c:39:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/dynload.c:136:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gerbv/src/dynload.c:137:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gerbv/src/dynload.c:148:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gerbv/src/export-drill.c:37:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/export-isel-drill.c:43:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/export-rs274x.c:38:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/gerb_file.c:53:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/gerb_file.c:328:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gerbv/src/gerb_file.c:329:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gerbv/src/gerb_file.c:343:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gerbv/src/gerb_file.c:356:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gerbv/src/gerb_stats.c:38:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/gerber.c:45:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/gerbv.c:68:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/interface.c:54:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/main.c:59:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/main.c:61:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/project.c:106:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/project.c:482:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/project.c:531:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/project.c:541:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/render.c:66:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/scheme.c:886:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+./gerbv/src/scheme.c:1066:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/scheme.c:1073:  [4 ] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/scheme.c:1728:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./gerbv/src/scheme.c:1742:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/scheme.c:3941:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/scheme.c:3948:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/scheme.c:3980:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./gerbv/src/scheme.c:4405:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./gerbv/src/scheme.c:4421:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./gerbv/src/dynload.c:54:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current
+  directory may be used. Use registry entry or GetWindowsDirectory to find
+  library path, if you aren't already. 
+./gerbv/src/gerb_file.c:317:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gerbv/src/interface.c:97:  [3] (buffer) g_get_home_dir:
+  This function is synonymous with 'getenv("HOME")';it returns
+  untrustable input if the environment can beset by an attacker.  It can have any
+  content and length, and the same variable can be set more than once.
+  Check environment variables carefully before using them. 
+./gerbv/src/interface.c:108:  [3] (buffer) g_get_home_dir:
+  This function is synonymous with 'getenv("HOME")';it returns
+  untrustable input if the environment can beset by an attacker.  It can have any
+  content and length, and the same variable can be set more than once.
+  Check environment variables carefully before using them. 
+./gerbv/src/lrealpath.c:84:  [3] (buffer) realpath:
+  This function does not protect against buffer overflows, and some
+  implementations can overflow internally. Ensure that the destination buffer
+  is at least of size MAXPATHLEN, andto protect against implementation
+  problems, the input argument should also be checked to ensure it is no
+  larger than MAXPATHLEN. 
+./gerbv/src/lrealpath.c:122:  [3] (buffer) realpath:
+  This function does not protect against buffer overflows, and some
+  implementations can overflow internally. Ensure that the destination buffer
+  is at least of size MAXPATHLEN, andto protect against implementation
+  problems, the input argument should also be checked to ensure it is no
+  larger than MAXPATHLEN. 
+./gerbv/src/main.c:465:  [3] (buffer) getopt_long:
+  Some older implementations do not protect against internal buffer
+  overflows . Check implementation on installation, or limit the size of all
+  string inputs. 
+./gerbv/src/main.c:468:  [3] (buffer) getopt:
+  Some older implementations do not protect against internal buffer
+  overflows . Check implementation on installation, or limit the size of all
+  string inputs. 
+./gerbv/src/project.c:466:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gerbv/src/scheme.c:4422:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker.  They can have any content and length, and the same variable
+  can be set more than once. Check environment variables carefully before
+  using them. 
+./gerbv/src/drill.c:1244:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/drill.c:1438:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/drill.c:1557:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/drill.c:1595:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/dynload.c:104:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/dynload.c:147:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gerbv/src/gerb_file.c:69:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/gerb_file.c:314:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/gerber.c:1202:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/gerber.c:2026:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/gerber.c:2148:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/gettext.h:210:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/gettext.h:212:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/gettext.h:220:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/gettext.h:222:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/gettext.h:256:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/gettext.h:258:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/gettext.h:266:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/gettext.h:268:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/lrealpath.c:83:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/lrealpath.c:142:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/main.h:96:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/main.h:97:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/main.h:98:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/pick-and-place.c:80:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/pick-and-place.c:129:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/pick-and-place.c:153:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/pick-and-place.c:202:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/pick-and-place.c:203:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/pick-and-place.h:45:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/pick-and-place.h:46:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/pick-and-place.h:53:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/pick-and-place.h:55:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/project.c:148:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gerbv/src/project.c:176:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gerbv/src/project.c:231:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/project.c:975:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/project.c:999:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/project.c:1048:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/scheme-private.h:65:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/scheme-private.h:120:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/scheme-private.h:121:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/scheme.c:274:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/scheme.c:971:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/scheme.c:974:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1053:  [2] (integer) atol:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gerbv/src/scheme.c:1059:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/scheme.c:1224:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/scheme.c:1225:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1245:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/scheme.c:1285:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/scheme.c:1690:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gerbv/src/scheme.c:1694:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1696:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1716:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1718:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1720:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1722:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1726:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gerbv/src/scheme.c:1728:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./gerbv/src/scheme.c:1732:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1735:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:1751:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:2533:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:2740:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:3062:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/scheme.c:3092:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/scheme.c:3161:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:3284:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:3306:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./gerbv/src/scheme.c:3790:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:3845:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./gerbv/src/scheme.c:3934:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/scheme.c:4437:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/scheme.c:4447:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/table.c:90:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/tooltable.c:65:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/tooltable.c:69:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./gerbv/src/tooltable.c:111:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./gerbv/src/tooltable.c:119:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./gerbv/src/csv.c:83:  [1] (buffer) fgetc:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:311:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:394:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:458:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:487:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:765:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:798:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:798:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:898:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/drill.c:918:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/drill.c:1245:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1251:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1252:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1254:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1254:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1259:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1259:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1365:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1366:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1367:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1367:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1369:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1370:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1439:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1445:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1446:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1448:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1448:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1455:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1455:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1502:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1556:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1568:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1569:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1579:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1584:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1652:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/drill.c:1653:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/drill.c:1660:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/drill.c:1666:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/drill.c:1716:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1716:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1730:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1730:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/drill.c:1733:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/gerb_file.c:242:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for
+  invalid pointers. 
+./gerbv/src/gerb_file.c:308:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerb_file.c:314:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for
+  invalid pointers. 
+./gerbv/src/gerb_file.c:325:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerb_file.c:325:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerb_file.c:340:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerb_file.c:340:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerb_file.c:344:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerb_file.c:345:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerb_file.c:346:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct
+  maximum size to add). Consider strlcat or automatically resizing strings. 
+./gerbv/src/gerb_file.c:346:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerber.c:136:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/gerber.c:153:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/gerber.c:689:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/gerber.c:689:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/gerber.c:802:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerber.c:895:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerber.c:2303:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerber.c:2327:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gerber.c:2327:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gettext.h:206:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gettext.h:207:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gettext.h:252:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/gettext.h:253:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:303:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:305:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:527:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:543:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:564:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:588:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:608:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:608:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:613:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:707:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/main.c:740:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:132:  [1] (buffer) sscanf:
+  it's unclear if the %s limit in the format string is small enough.
+  Check that the limit is sufficiently small, or use a different input
+  function. 
+./gerbv/src/pick-and-place.c:216:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:271:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and
+  permits buffer overflows; there are also incompatible standard definitions
+  of it. Check it during installation, or use something else. 
+./gerbv/src/pick-and-place.c:272:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and
+  permits buffer overflows; there are also incompatible standard definitions
+  of it. Check it during installation, or use something else. 
+./gerbv/src/pick-and-place.c:273:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and
+  permits buffer overflows; there are also incompatible standard definitions
+  of it. Check it during installation, or use something else. 
+./gerbv/src/pick-and-place.c:276:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:281:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and
+  permits buffer overflows; there are also incompatible standard definitions
+  of it. Check it during installation, or use something else. 
+./gerbv/src/pick-and-place.c:284:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and
+  permits buffer overflows; there are also incompatible standard definitions
+  of it. Check it during installation, or use something else. 
+./gerbv/src/pick-and-place.c:305:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and
+  permits buffer overflows; there are also incompatible standard definitions
+  of it. Check it during installation, or use something else. 
+./gerbv/src/pick-and-place.c:306:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and
+  permits buffer overflows; there are also incompatible standard definitions
+  of it. Check it during installation, or use something else. 
+./gerbv/src/pick-and-place.c:307:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and
+  permits buffer overflows; there are also incompatible standard definitions
+  of it. Check it during installation, or use something else. 
+./gerbv/src/pick-and-place.c:399:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:627:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:646:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:665:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:684:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:709:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:729:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:752:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/pick-and-place.c:770:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:199:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:202:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:448:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:477:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:477:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:525:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:525:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:535:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/project.c:535:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/scheme.c:896:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/scheme.c:1386:  [1] (buffer) fgetc:
+  Check buffer boundaries if used in a loop. 
+./gerbv/src/scheme.c:1758:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+./gerbv/src/scheme.c:4333:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+
+Hits = 241
+Lines analyzed = 32543 in 0.77 seconds (122063 lines/second)
+Physical Source Lines of Code (SLOC) = 24598
+Hits@level = [0]   0 [1] 113 [2]  80 [3]  10 [4]  38 [5]   0
+Hits@level+ = [0+] 241 [1+] 241 [2+] 128 [3+]  48 [4+]  38 [5+]   0
+Hits/KSLOC@level+ = [0+] 9.79754 [1+] 9.79754 [2+] 5.20368 [3+] 1.95138 [4+] 1.54484 [5+]   0
+Dot directories skipped = 2 (--followdotdir overrides)
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!

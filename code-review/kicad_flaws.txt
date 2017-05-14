@@ -1,0 +1,1020 @@
+Flawfinder version 1.27, (C) 2001-2004 David A. Wheeler.
+Number of dangerous functions in C/C++ ruleset: 160
+Examining ./kicad/pcbnew/attribut.cpp
+Examining ./kicad/pcbnew/netlist.cpp
+Examining ./kicad/pcbnew/class_footprint_wizard.cpp
+Examining ./kicad/pcbnew/class_pad_draw_functions.cpp
+Examining ./kicad/pcbnew/pcb_painter.h
+Examining ./kicad/pcbnew/zones_test_and_combine_areas.cpp
+Examining ./kicad/pcbnew/zones_polygons_test_connections.cpp
+Examining ./kicad/pcbnew/hotkeys.cpp
+Examining ./kicad/pcbnew/class_netclass.h
+Examining ./kicad/pcbnew/board_netlist_updater.h
+Examining ./kicad/pcbnew/edit_track_width.cpp
+Examining ./kicad/pcbnew/plot_brditems_plotter.cpp
+Examining ./kicad/pcbnew/class_pcb_layer_widget.h
+Examining ./kicad/pcbnew/pcbplot.h
+Examining ./kicad/pcbnew/globaleditpad.cpp
+Examining ./kicad/pcbnew/class_pad.h
+Examining ./kicad/pcbnew/pcbnew_config.cpp
+Examining ./kicad/pcbnew/pcb_parser.cpp
+Examining ./kicad/pcbnew/class_board.h
+Examining ./kicad/pcbnew/class_drc_item.cpp
+Examining ./kicad/pcbnew/zones_functions_for_undo_redo.h
+Examining ./kicad/pcbnew/zones_convert_brd_items_to_polygons_with_Boost.cpp
+Examining ./kicad/pcbnew/class_footprint_wizard.h
+Examining ./kicad/pcbnew/board_netlist_updater.cpp
+Examining ./kicad/pcbnew/class_netinfo.h
+Examining ./kicad/pcbnew/github/github_getliblist.cpp
+Examining ./kicad/pcbnew/github/github_plugin.cpp
+Examining ./kicad/pcbnew/github/html_link_parser.cpp
+Examining ./kicad/pcbnew/github/github_getliblist.h
+Examining ./kicad/pcbnew/github/html_link_parser.h
+Examining ./kicad/pcbnew/github/github_plugin.h
+Examining ./kicad/pcbnew/class_marker_pcb.cpp
+Examining ./kicad/pcbnew/printout_controler.h
+Examining ./kicad/pcbnew/pcb_base_edit_frame.cpp
+Examining ./kicad/pcbnew/class_pcb_layer_box_selector.h
+Examining ./kicad/pcbnew/tool_onrightclick.cpp
+Examining ./kicad/pcbnew/edgemod.cpp
+Examining ./kicad/pcbnew/clean.cpp
+Examining ./kicad/pcbnew/protos.h
+Examining ./kicad/pcbnew/specctra_test.cpp
+Examining ./kicad/pcbnew/drc_stuff.h
+Examining ./kicad/pcbnew/class_zone_settings.h
+Examining ./kicad/pcbnew/board_commit.h
+Examining ./kicad/pcbnew/legacy_netlist_reader.cpp
+Examining ./kicad/pcbnew/class_pcb_layer_widget.cpp
+Examining ./kicad/pcbnew/class_netclass.cpp
+Examining ./kicad/pcbnew/layer_widget.cpp
+Examining ./kicad/pcbnew/editmod.cpp
+Examining ./kicad/pcbnew/class_track.h
+Examining ./kicad/pcbnew/class_board.cpp
+Examining ./kicad/pcbnew/class_edge_mod.cpp
+Examining ./kicad/pcbnew/class_zone.h
+Examining ./kicad/pcbnew/tool_pcb.cpp
+Examining ./kicad/pcbnew/footprint_wizard_frame.h
+Examining ./kicad/pcbnew/modeditoptions.cpp
+Examining ./kicad/pcbnew/basepcbframe.cpp
+Examining ./kicad/pcbnew/pcbnew.cpp
+Examining ./kicad/pcbnew/magnetic_tracks_functions.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_block_options.h
+Examining ./kicad/pcbnew/dialogs/dialog_copper_zones.cpp
+Examining ./kicad/pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_netlist.h
+Examining ./kicad/pcbnew/dialogs/dialog_select_net_from_list_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_design_rules.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_deletion_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_track_via_size_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_freeroute_exchange_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_pads_edition.h
+Examining ./kicad/pcbnew/dialogs/dialog_pns_settings_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_gendrill_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_layer_selection_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_fp_plugin_options_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_select_pretty_lib.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_select_pretty_lib.h
+Examining ./kicad/pcbnew/dialogs/dialog_mask_clearance_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_layers_setup.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_display_options.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_export_vrml_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_keepout_area_properties_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_gendrill.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_export_step_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_SVG_print_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_get_footprint_by_name_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_drc.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_scripting.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_export_step_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_gen_module_position_file_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_track_via_properties.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pns_settings_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pad_properties_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_keepout_area_properties_base.cpp
+Examining ./kicad/pcbnew/dialogs/wizard_add_fplib_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_track_via_size.h
+Examining ./kicad/pcbnew/dialogs/dialog_modedit_options_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_global_pads_edition_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_general_options_BoardEditor_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_general_options.h
+Examining ./kicad/pcbnew/dialogs/dialog_design_rules_aux_helper_class.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_for_BoardEditor.h
+Examining ./kicad/pcbnew/dialogs/dialog_create_array.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_non_copper_zones_properties_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_move_exact.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_non_copper_zones_properties.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_SVG_print_base.cpp
+Examining ./kicad/pcbnew/dialogs/wizard_add_fplib.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pns_diff_pair_dimensions.h
+Examining ./kicad/pcbnew/dialogs/dialog_gen_module_position_file_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_keepout_area_properties.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_non_copper_zones_properties_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_gendrill_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_target_properties_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_set_grid_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_create_array.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_for_Modedit.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_set_grid_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_block_options.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_print_for_modedit.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_layers_setup_base.cpp
+Examining ./kicad/pcbnew/dialogs/wizard_3DShape_Libs_downloader.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_text.h
+Examining ./kicad/pcbnew/dialogs/dialog_drclistbox.h
+Examining ./kicad/pcbnew/dialogs/dialog_footprint_wizard_list_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_print_for_modedit_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_pcb_text_properties_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_select_pretty_lib_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pad_properties.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_deletion_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_deletion.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_modules_fields_edition_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_netlist_fbp.h
+Examining ./kicad/pcbnew/dialogs/dialog_cleaning_options_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_plot.h
+Examining ./kicad/pcbnew/dialogs/dialog_graphic_item_properties_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_drc_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_mask_clearance.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_for_Modedit.h
+Examining ./kicad/pcbnew/dialogs/dialog_mask_clearance_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_exchange_modules_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_plot_base.h
+Examining ./kicad/pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_design_rules_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_export_idf_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_move_exact.h
+Examining ./kicad/pcbnew/dialogs/dialog_pns_length_tuning_settings.h
+Examining ./kicad/pcbnew/dialogs/dialog_find_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_enum_pads_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_print_using_printer_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pns_settings.h
+Examining ./kicad/pcbnew/dialogs/dialog_pad_properties_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_set_grid.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_modedit_options_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_gendrill.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_text_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_footprint_wizard_list_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_layers_setup_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_fp_plugin_options.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_enum_pads.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_graphic_item_properties.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_find.h
+Examining ./kicad/pcbnew/dialogs/dialog_export_vrml.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_export_idf_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_block_options_base.h
+Examining ./kicad/pcbnew/dialogs/wizard_3DShape_Libs_downloader.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_text.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_graphic_items_options_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_fp_lib_table.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_copper_zones_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_pns_settings.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_update_pcb_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_freeroute_exchange_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_global_edit_tracks_and_vias.h
+Examining ./kicad/pcbnew/dialogs/dialog_enum_pads_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_footprint_wizard_list.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_dimension_editor_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pns_length_tuning_settings.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_drc.h
+Examining ./kicad/pcbnew/dialogs/dialog_print_using_printer_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_modedit_options.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_plot_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_move_exact_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_display_options_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_drc_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_update_pcb_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_scripting_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_track_via_properties_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_find_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_mask_clearance.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_fp_lib_table_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_track_via_size_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_select_net_from_list.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_select_net_from_list_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_select_pretty_lib_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_for_BoardEditor.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_print_using_printer.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_freeroute_exchange.h
+Examining ./kicad/pcbnew/dialogs/dialog_track_via_properties.h
+Examining ./kicad/pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_fp_plugin_options_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_layer_selection_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_update_pcb.h
+Examining ./kicad/pcbnew/dialogs/dialog_graphic_items_options.h
+Examining ./kicad/pcbnew/dialogs/dialog_track_via_size.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_target_properties_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_get_footprint_by_name.h
+Examining ./kicad/pcbnew/dialogs/dialog_netlist_fbp.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_pads_edition.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_move_exact_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_display_options.h
+Examining ./kicad/pcbnew/dialogs/dialog_copper_zones_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_find.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_dimension_editor_base.h
+Examining ./kicad/pcbnew/dialogs/wizard_add_fplib_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_freeroute_exchange.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_enum_pads.h
+Examining ./kicad/pcbnew/dialogs/dialog_display_options_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_fp_lib_table_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_footprint_wizard_list.h
+Examining ./kicad/pcbnew/dialogs/dialog_pad_properties.h
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_text_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_create_array_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_update_pcb.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_design_rules_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_SVG_print.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_export_vrml_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_cleaning_options.h
+Examining ./kicad/pcbnew/dialogs/dialog_global_modules_fields_edition.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_graphic_items_options.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pcb_text_properties_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_netlist.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_print_for_modedit_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_pads_edition_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_track_via_properties_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_pns_length_tuning_settings_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_pcb_text_properties.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_block_options_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_scripting.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_graphic_items_options_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_pns_diff_pair_dimensions.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_scripting_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_graphic_item_properties_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_create_array_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_cleaning_options_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_export_idf.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_export_step.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_edit_module_for_Modedit_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_plot.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_exchange_modules.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_exchange_modules.h
+Examining ./kicad/pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_cleaning_options.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_get_footprint_by_name_base.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_global_deletion.h
+Examining ./kicad/pcbnew/dialogs/dialog_exchange_modules_base.h
+Examining ./kicad/pcbnew/dialogs/dialog_general_options.cpp
+Examining ./kicad/pcbnew/dialogs/dialog_design_rules.h
+Examining ./kicad/pcbnew/dialogs/wizard_add_fplib.h
+Examining ./kicad/pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp
+Examining ./kicad/pcbnew/pcb_parser.h
+Examining ./kicad/pcbnew/ratsnest.cpp
+Examining ./kicad/pcbnew/muwave_command.cpp
+Examining ./kicad/pcbnew/hotkeys_module_editor.cpp
+Examining ./kicad/pcbnew/netlist_reader.h
+Examining ./kicad/pcbnew/ratsnest_data.h
+Examining ./kicad/pcbnew/build_BOM_from_board.cpp
+Examining ./kicad/pcbnew/class_drawsegment.cpp
+Examining ./kicad/pcbnew/ratsnest_viewitem.h
+Examining ./kicad/pcbnew/pcbplot.cpp
+Examining ./kicad/pcbnew/append_board_to_current.cpp
+Examining ./kicad/pcbnew/ratsnest_viewitem.cpp
+Examining ./kicad/pcbnew/class_action_plugin.h
+Examining ./kicad/pcbnew/pcbnew_config.h
+Examining ./kicad/pcbnew/sel_layer.cpp
+Examining ./kicad/pcbnew/class_drawsegment.h
+Examining ./kicad/pcbnew/minimun_spanning_tree.h
+Examining ./kicad/pcbnew/class_pad.cpp
+Examining ./kicad/pcbnew/class_track.cpp
+Examining ./kicad/pcbnew/swig/pcbnew_scripting_helpers.h
+Examining ./kicad/pcbnew/swig/python_scripting.h
+Examining ./kicad/pcbnew/swig/pcbnew_action_plugins.h
+Examining ./kicad/pcbnew/swig/pcbnew_footprint_wizards.cpp
+Examining ./kicad/pcbnew/swig/pcbnew_action_plugins.cpp
+Examining ./kicad/pcbnew/swig/python_scripting.cpp
+Examining ./kicad/pcbnew/swig/pcbnew_scripting_helpers.cpp
+Examining ./kicad/pcbnew/swig/pcbnew_footprint_wizards.h
+Examining ./kicad/pcbnew/editrack.cpp
+Examining ./kicad/pcbnew/legacy_plugin.cpp
+Examining ./kicad/pcbnew/plot_board_layers.cpp
+Examining ./kicad/pcbnew/pcbnew.h
+Examining ./kicad/pcbnew/highlight.cpp
+Examining ./kicad/pcbnew/move_or_drag_track.cpp
+Examining ./kicad/pcbnew/plugin.cpp
+Examining ./kicad/pcbnew/modules.cpp
+Examining ./kicad/pcbnew/edtxtmod.cpp
+Examining ./kicad/pcbnew/gpcb_plugin.h
+Examining ./kicad/pcbnew/specctra_import.cpp
+Examining ./kicad/pcbnew/class_module.h
+Examining ./kicad/pcbnew/block_module_editor.cpp
+Examining ./kicad/pcbnew/board_commit.cpp
+Examining ./kicad/pcbnew/legacy_plugin.h
+Examining ./kicad/pcbnew/swap_layers.cpp
+Examining ./kicad/pcbnew/toolbars_update_user_interface.cpp
+Examining ./kicad/pcbnew/autorouter/cell.h
+Examining ./kicad/pcbnew/autorouter/solve.cpp
+Examining ./kicad/pcbnew/autorouter/autorout.cpp
+Examining ./kicad/pcbnew/autorouter/work.cpp
+Examining ./kicad/pcbnew/autorouter/dist.cpp
+Examining ./kicad/pcbnew/autorouter/routing_matrix.cpp
+Examining ./kicad/pcbnew/autorouter/auto_place_footprints.cpp
+Examining ./kicad/pcbnew/autorouter/rect_placement/rect_placement.h
+Examining ./kicad/pcbnew/autorouter/rect_placement/rect_placement.cpp
+Examining ./kicad/pcbnew/autorouter/move_and_route_event_functions.cpp
+Examining ./kicad/pcbnew/autorouter/graphpcb.cpp
+Examining ./kicad/pcbnew/autorouter/queue.cpp
+Examining ./kicad/pcbnew/autorouter/spread_footprints.cpp
+Examining ./kicad/pcbnew/autorouter/autorout.h
+Examining ./kicad/pcbnew/class_action_plugin.cpp
+Examining ./kicad/pcbnew/plotcontroller.h
+Examining ./kicad/pcbnew/class_pcb_layer_box_selector.cpp
+Examining ./kicad/pcbnew/onleftclick.cpp
+Examining ./kicad/pcbnew/minimun_spanning_tree.cpp
+Examining ./kicad/pcbnew/gpcb_plugin.cpp
+Examining ./kicad/pcbnew/layer_widget.h
+Examining ./kicad/pcbnew/edit.cpp
+Examining ./kicad/pcbnew/footprint_wizard.cpp
+Examining ./kicad/pcbnew/class_mire.h
+Examining ./kicad/pcbnew/hotkeys.h
+Examining ./kicad/pcbnew/zone_filling_algorithm.cpp
+Examining ./kicad/pcbnew/modview_frame.cpp
+Examining ./kicad/pcbnew/eagle_plugin.h
+Examining ./kicad/pcbnew/event_handlers_tracks_vias_sizes.cpp
+Examining ./kicad/pcbnew/librairi.cpp
+Examining ./kicad/pcbnew/tr_modif.cpp
+Examining ./kicad/pcbnew/class_zone_settings.cpp
+Examining ./kicad/pcbnew/block.cpp
+Examining ./kicad/pcbnew/pcb_plot_params_parser.h
+Examining ./kicad/pcbnew/collectors.cpp
+Examining ./kicad/pcbnew/hotkeys_board_editor.cpp
+Examining ./kicad/pcbnew/files.cpp
+Examining ./kicad/pcbnew/router/pns_meander_skew_placer.h
+Examining ./kicad/pcbnew/router/pns_meander_placer_base.h
+Examining ./kicad/pcbnew/router/pns_tune_status_popup.h
+Examining ./kicad/pcbnew/router/pns_meander_placer.cpp
+Examining ./kicad/pcbnew/router/pns_via.h
+Examining ./kicad/pcbnew/router/pns_joint.h
+Examining ./kicad/pcbnew/router/pns_tool_base.h
+Examining ./kicad/pcbnew/router/pns_topology.cpp
+Examining ./kicad/pcbnew/router/length_tuner_tool.h
+Examining ./kicad/pcbnew/router/pns_item.cpp
+Examining ./kicad/pcbnew/router/pns_utils.cpp
+Examining ./kicad/pcbnew/router/pns_dp_meander_placer.cpp
+Examining ./kicad/pcbnew/router/pns_line.cpp
+Examining ./kicad/pcbnew/router/pns_optimizer.h
+Examining ./kicad/pcbnew/router/pns_router.h
+Examining ./kicad/pcbnew/router/pns_dp_meander_placer.h
+Examining ./kicad/pcbnew/router/pns_diff_pair.h
+Examining ./kicad/pcbnew/router/pns_kicad_iface.cpp
+Examining ./kicad/pcbnew/router/pns_kicad_iface.h
+Examining ./kicad/pcbnew/router/pns_walkaround.cpp
+Examining ./kicad/pcbnew/router/pns_solid.cpp
+Examining ./kicad/pcbnew/router/pns_shove.cpp
+Examining ./kicad/pcbnew/router/pns_walkaround.h
+Examining ./kicad/pcbnew/router/router_tool.h
+Examining ./kicad/pcbnew/router/pns_tool_base.cpp
+Examining ./kicad/pcbnew/router/pns_line.h
+Examining ./kicad/pcbnew/router/pns_node.cpp
+Examining ./kicad/pcbnew/router/length_tuner_tool.cpp
+Examining ./kicad/pcbnew/router/pns_dragger.h
+Examining ./kicad/pcbnew/router/range.h
+Examining ./kicad/pcbnew/router/pns_meander_placer.h
+Examining ./kicad/pcbnew/router/pns_via.cpp
+Examining ./kicad/pcbnew/router/pns_solid.h
+Examining ./kicad/pcbnew/router/router_preview_item.h
+Examining ./kicad/pcbnew/router/pns_debug_decorator.h
+Examining ./kicad/pcbnew/router/time_limit.h
+Examining ./kicad/pcbnew/router/pns_diff_pair_placer.h
+Examining ./kicad/pcbnew/router/pns_algo_base.cpp
+Examining ./kicad/pcbnew/router/pns_index.h
+Examining ./kicad/pcbnew/router/ranged_num.h
+Examining ./kicad/pcbnew/router/pns_line_placer.h
+Examining ./kicad/pcbnew/router/pns_diff_pair.cpp
+Examining ./kicad/pcbnew/router/pns_routing_settings.h
+Examining ./kicad/pcbnew/router/pns_meander.h
+Examining ./kicad/pcbnew/router/router_tool.cpp
+Examining ./kicad/pcbnew/router/pns_meander_placer_base.cpp
+Examining ./kicad/pcbnew/router/pns_sizes_settings.h
+Examining ./kicad/pcbnew/router/pns_placement_algo.h
+Examining ./kicad/pcbnew/router/pns_meander.cpp
+Examining ./kicad/pcbnew/router/pns_line_placer.cpp
+Examining ./kicad/pcbnew/router/pns_itemset.h
+Examining ./kicad/pcbnew/router/pns_layerset.h
+Examining ./kicad/pcbnew/router/pns_logger.cpp
+Examining ./kicad/pcbnew/router/pns_node.h
+Examining ./kicad/pcbnew/router/pns_optimizer.cpp
+Examining ./kicad/pcbnew/router/pns_sizes_settings.cpp
+Examining ./kicad/pcbnew/router/pns_itemset.cpp
+Examining ./kicad/pcbnew/router/pns_segment.h
+Examining ./kicad/pcbnew/router/pns_utils.h
+Examining ./kicad/pcbnew/router/time_limit.cpp
+Examining ./kicad/pcbnew/router/pns_meander_skew_placer.cpp
+Examining ./kicad/pcbnew/router/pns_topology.h
+Examining ./kicad/pcbnew/router/pns_logger.h
+Examining ./kicad/pcbnew/router/pns_router.cpp
+Examining ./kicad/pcbnew/router/pns_item.h
+Examining ./kicad/pcbnew/router/pns_routing_settings.cpp
+Examining ./kicad/pcbnew/router/pns_diff_pair_placer.cpp
+Examining ./kicad/pcbnew/router/router_preview_item.cpp
+Examining ./kicad/pcbnew/router/pns_algo_base.h
+Examining ./kicad/pcbnew/router/pns_dragger.cpp
+Examining ./kicad/pcbnew/router/direction.h
+Examining ./kicad/pcbnew/router/pns_tune_status_popup.cpp
+Examining ./kicad/pcbnew/router/pns_shove.h
+Examining ./kicad/pcbnew/menubar_pcbframe.cpp
+Examining ./kicad/pcbnew/zones_convert_to_polygons_aux_functions.cpp
+Examining ./kicad/pcbnew/class_board_item.cpp
+Examining ./kicad/pcbnew/cross-probing.cpp
+Examining ./kicad/pcbnew/connect.cpp
+Examining ./kicad/pcbnew/collectors.h
+Examining ./kicad/pcbnew/drc.cpp
+Examining ./kicad/pcbnew/pcb_base_edit_frame.h
+Examining ./kicad/pcbnew/board_items_to_polygon_shape_transform.cpp
+Examining ./kicad/pcbnew/footprint_preview_panel.cpp
+Examining ./kicad/pcbnew/modview_frame.h
+Examining ./kicad/pcbnew/class_edge_mod.h
+Examining ./kicad/pcbnew/class_pcb_text.h
+Examining ./kicad/pcbnew/class_pcb_text.cpp
+Examining ./kicad/pcbnew/class_dimension.h
+Examining ./kicad/pcbnew/drc_marker_functions.cpp
+Examining ./kicad/pcbnew/class_text_mod.h
+Examining ./kicad/pcbnew/controle.cpp
+Examining ./kicad/pcbnew/pcb_plot_params.h
+Examining ./kicad/pcbnew/printout_controler.cpp
+Examining ./kicad/pcbnew/connect.h
+Examining ./kicad/pcbnew/tool_modview.cpp
+Examining ./kicad/pcbnew/undo_redo.cpp
+Examining ./kicad/pcbnew/class_board_design_settings.cpp
+Examining ./kicad/pcbnew/help_common_strings.h
+Examining ./kicad/pcbnew/initpcb.cpp
+Examining ./kicad/pcbnew/editrack-part2.cpp
+Examining ./kicad/pcbnew/class_board_connected_item.h
+Examining ./kicad/pcbnew/io_mgr.h
+Examining ./kicad/pcbnew/module_editor_frame.h
+Examining ./kicad/pcbnew/io_mgr.cpp
+Examining ./kicad/pcbnew/drag.h
+Examining ./kicad/pcbnew/pcb_painter.cpp
+Examining ./kicad/pcbnew/target_edit.cpp
+Examining ./kicad/pcbnew/class_dimension.cpp
+Examining ./kicad/pcbnew/array_creator.h
+Examining ./kicad/pcbnew/tools/picker_tool.h
+Examining ./kicad/pcbnew/tools/edit_points.h
+Examining ./kicad/pcbnew/tools/point_editor.cpp
+Examining ./kicad/pcbnew/tools/drawing_tool.cpp
+Examining ./kicad/pcbnew/tools/pcbnew_control.cpp
+Examining ./kicad/pcbnew/tools/pad_tool.cpp
+Examining ./kicad/pcbnew/tools/bright_box.cpp
+Examining ./kicad/pcbnew/tools/size_menu.h
+Examining ./kicad/pcbnew/tools/placement_tool.cpp
+Examining ./kicad/pcbnew/tools/tool_menu.cpp
+Examining ./kicad/pcbnew/tools/zoom_menu.cpp
+Examining ./kicad/pcbnew/tools/placement_tool.h
+Examining ./kicad/pcbnew/tools/picker_tool.cpp
+Examining ./kicad/pcbnew/tools/selection_conditions.h
+Examining ./kicad/pcbnew/tools/zoom_tool.h
+Examining ./kicad/pcbnew/tools/tool_event_utils.h
+Examining ./kicad/pcbnew/tools/tool_event_utils.cpp
+Examining ./kicad/pcbnew/tools/edit_tool.h
+Examining ./kicad/pcbnew/tools/grid_menu.h
+Examining ./kicad/pcbnew/tools/tool_menu.h
+Examining ./kicad/pcbnew/tools/point_editor.h
+Examining ./kicad/pcbnew/tools/zoom_menu.h
+Examining ./kicad/pcbnew/tools/selection_conditions.cpp
+Examining ./kicad/pcbnew/tools/edit_constraints.cpp
+Examining ./kicad/pcbnew/tools/selection_area.h
+Examining ./kicad/pcbnew/tools/size_menu.cpp
+Examining ./kicad/pcbnew/tools/pcb_editor_control.h
+Examining ./kicad/pcbnew/tools/pcb_editor_control.cpp
+Examining ./kicad/pcbnew/tools/grid_helper.h
+Examining ./kicad/pcbnew/tools/grid_helper.cpp
+Examining ./kicad/pcbnew/tools/bright_box.h
+Examining ./kicad/pcbnew/tools/tools_common.cpp
+Examining ./kicad/pcbnew/tools/selection_area.cpp
+Examining ./kicad/pcbnew/tools/selection_tool.cpp
+Examining ./kicad/pcbnew/tools/selection_tool.h
+Examining ./kicad/pcbnew/tools/zoom_tool.cpp
+Examining ./kicad/pcbnew/tools/edit_constraints.h
+Examining ./kicad/pcbnew/tools/pcb_actions.h
+Examining ./kicad/pcbnew/tools/pcbnew_control.h
+Examining ./kicad/pcbnew/tools/pad_tool.h
+Examining ./kicad/pcbnew/tools/conditional_menu.cpp
+Examining ./kicad/pcbnew/tools/module_editor_tools.h
+Examining ./kicad/pcbnew/tools/pcb_actions.cpp
+Examining ./kicad/pcbnew/tools/pcb_tool.h
+Examining ./kicad/pcbnew/tools/grid_menu.cpp
+Examining ./kicad/pcbnew/tools/conditional_menu.h
+Examining ./kicad/pcbnew/tools/module_editor_tools.cpp
+Examining ./kicad/pcbnew/tools/drawing_tool.h
+Examining ./kicad/pcbnew/tools/edit_tool.cpp
+Examining ./kicad/pcbnew/tools/edit_points.cpp
+Examining ./kicad/pcbnew/zones_by_polygon.cpp
+Examining ./kicad/pcbnew/class_marker_pcb.h
+Examining ./kicad/pcbnew/eagle_plugin.cpp
+Examining ./kicad/pcbnew/class_board_connected_item.cpp
+Examining ./kicad/pcbnew/board_item_container.h
+Examining ./kicad/pcbnew/tracepcb.cpp
+Examining ./kicad/pcbnew/pcb_netlist.h
+Examining ./kicad/pcbnew/modedit_onclick.cpp
+Examining ./kicad/pcbnew/import_dxf/dialog_dxf_import_base.cpp
+Examining ./kicad/pcbnew/import_dxf/dxf2brd_items.h
+Examining ./kicad/pcbnew/import_dxf/dialog_dxf_import.h
+Examining ./kicad/pcbnew/import_dxf/dialog_dxf_import.cpp
+Examining ./kicad/pcbnew/import_dxf/dialog_dxf_import_base.h
+Examining ./kicad/pcbnew/import_dxf/dxf2brd_items.cpp
+Examining ./kicad/pcbnew/netlist_reader.cpp
+Examining ./kicad/pcbnew/dimension.cpp
+Examining ./kicad/pcbnew/move-drag_pads.cpp
+Examining ./kicad/pcbnew/pcb_netlist.cpp
+Examining ./kicad/pcbnew/onrightclick.cpp
+Examining ./kicad/pcbnew/print_board_functions.cpp
+Examining ./kicad/pcbnew/pcbnew_id.h
+Examining ./kicad/pcbnew/class_netinfolist.cpp
+Examining ./kicad/pcbnew/class_mire.cpp
+Examining ./kicad/pcbnew/array_creator.cpp
+Examining ./kicad/pcbnew/pcb_plot_params.cpp
+Examining ./kicad/pcbnew/specctra.cpp
+Examining ./kicad/pcbnew/classpcb.cpp
+Examining ./kicad/pcbnew/zones_polygons_insulated_copper_islands.cpp
+Examining ./kicad/pcbnew/footprint_wizard_frame.cpp
+Examining ./kicad/pcbnew/loadcmp.cpp
+Examining ./kicad/pcbnew/kicad_plugin.cpp
+Examining ./kicad/pcbnew/class_text_mod.cpp
+Examining ./kicad/pcbnew/drc_clearance_test_functions.cpp
+Examining ./kicad/pcbnew/pad_edition_functions.cpp
+Examining ./kicad/pcbnew/class_netinfo_item.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_via.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_pad.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcad_plugin.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcad2kicad_common.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_component.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_arc.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_polygon.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_pad_shape.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_net.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_text.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_copper_pour.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_via_shape.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_pad.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_module.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_component.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_text.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_keepout.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_cutout.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_via.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/s_expr_loader.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcad_plugin.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_arc.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/s_expr_loader.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_via_shape.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_line.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_polygon.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_net.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_module.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_copper_pour.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_line.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_callbacks.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_pad_shape.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcad2kicad_common.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_cutout.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_plane.cpp
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_keepout.h
+Examining ./kicad/pcbnew/pcad2kicadpcb_plugin/pcb_plane.h
+Examining ./kicad/pcbnew/class_module.cpp
+Examining ./kicad/pcbnew/kicad_netlist_reader.cpp
+Examining ./kicad/pcbnew/zones.h
+Examining ./kicad/pcbnew/menubar_modedit.cpp
+Examining ./kicad/pcbnew/specctra.h
+Examining ./kicad/pcbnew/deltrack.cpp
+Examining ./kicad/pcbnew/kicad_plugin.h
+Examining ./kicad/pcbnew/pcbframe.cpp
+Examining ./kicad/pcbnew/moduleframe.cpp
+Examining ./kicad/pcbnew/edit_pcb_text.cpp
+Examining ./kicad/pcbnew/specctra_export.cpp
+Examining ./kicad/pcbnew/invoke_pcb_dialog.h
+Examining ./kicad/pcbnew/zones_functions_for_undo_redo.cpp
+Examining ./kicad/pcbnew/muonde.cpp
+Examining ./kicad/pcbnew/tool_modedit.cpp
+Examining ./kicad/pcbnew/ratsnest_data.cpp
+Examining ./kicad/pcbnew/class_zone.cpp
+Examining ./kicad/pcbnew/modedit.cpp
+Examining ./kicad/pcbnew/pcb_draw_panel_gal.cpp
+Examining ./kicad/pcbnew/exporters/gen_modules_placefile.cpp
+Examining ./kicad/pcbnew/exporters/export_d356.cpp
+Examining ./kicad/pcbnew/exporters/export_vrml.cpp
+Examining ./kicad/pcbnew/exporters/gendrill_Excellon_writer.h
+Examining ./kicad/pcbnew/exporters/export_gencad.cpp
+Examining ./kicad/pcbnew/exporters/export_idf.cpp
+Examining ./kicad/pcbnew/exporters/gendrill_Excellon_writer.cpp
+Examining ./kicad/pcbnew/exporters/gen_drill_report_files.cpp
+Examining ./kicad/pcbnew/dragsegm.cpp
+Examining ./kicad/pcbnew/editedge.cpp
+Examining ./kicad/pcbnew/zones_by_polygon_fill_functions.cpp
+./kicad/pcbnew/class_board_item.cpp:131:  [4] (format) sprintf:
+  Potential format string problem. Make format string constant. 
+./kicad/pcbnew/exporters/export_d356.cpp:61:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./kicad/pcbnew/exporters/export_d356.cpp:128:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./kicad/pcbnew/exporters/export_d356.cpp:339:  [4] (race) access:
+  This usually indicates a security flaw.  If an attacker can change
+  anything along the path between the call to access() and the file's actual
+  use (e.g., by moving files), the attacker can exploit the race
+  condition. Set up the correct permissions (e.g., using setuid()) and try to
+  open the file directly. 
+./kicad/pcbnew/exporters/export_gencad.cpp:672:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./kicad/pcbnew/exporters/gendrill_Excellon_writer.cpp:401:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./kicad/pcbnew/exporters/gendrill_Excellon_writer.cpp:440:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./kicad/pcbnew/exporters/gendrill_Excellon_writer.cpp:458:  [4] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. 
+./kicad/pcbnew/legacy_plugin.cpp:3096:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./kicad/pcbnew/legacy_plugin.cpp:3108:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./kicad/pcbnew/legacy_plugin.cpp:3118:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be
+  exploited. Use a constant for the format specification. 
+./kicad/pcbnew/append_board_to_current.cpp:73:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/append_board_to_current.cpp:74:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/append_board_to_current.cpp:77:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/append_board_to_current.cpp:78:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/autorouter/auto_place_footprints.cpp:540:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination. Make
+  sure destination can always hold the source data. 
+./kicad/pcbnew/class_board_item.cpp:93:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/class_board_item.cpp:99:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/class_board_item.cpp:111:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/class_board_item.cpp:130:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/class_board_item.cpp:172:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/class_pad.h:600:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/cross-probing.cpp:44:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/eagle_plugin.cpp:1633:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/eagle_plugin.cpp:1634:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/eagle_plugin.cpp:2996:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/eagle_plugin.cpp:2997:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/exporters/export_vrml.cpp:1541:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./kicad/pcbnew/exporters/gen_drill_report_files.cpp:198:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/exporters/gen_drill_report_files.cpp:243:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/exporters/gen_drill_report_files.cpp:252:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/exporters/gen_drill_report_files.cpp:254:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/exporters/gen_drill_report_files.cpp:256:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/exporters/gen_drill_report_files.cpp:258:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/exporters/gen_drill_report_files.cpp:260:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/exporters/gendrill_Excellon_writer.cpp:177:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/exporters/gendrill_Excellon_writer.cpp:410:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/files.cpp:499:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/files.cpp:500:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/files.cpp:503:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/files.cpp:504:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/github/github_getliblist.cpp:57:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./kicad/pcbnew/github/github_getliblist.cpp:66:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./kicad/pcbnew/github/github_getliblist.cpp:100:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./kicad/pcbnew/github/github_getliblist.h:120:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_netlist_reader.cpp:109:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_netlist_reader.cpp:185:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:715:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:1405:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:1530:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:1889:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:2051:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:2130:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:2396:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:2491:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:2800:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:3373:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/legacy_plugin.cpp:3380:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/pcad2kicadpcb_plugin/s_expr_loader.cpp:41:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/pcb_plot_params.cpp:536:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/pcbnew.cpp:291:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/router/pns_logger.cpp:201:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move
+  things around to create a race condition, control its ancestors, or change
+  its contents?. 
+./kicad/pcbnew/specctra.cpp:207:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:212:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:222:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:232:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:237:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:547:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:811:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:1335:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:2363:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:2822:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:2927:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.cpp:3358:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+./kicad/pcbnew/specctra.h:2026:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra.h:2030:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra.h:3238:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra.h:3285:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:420:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:467:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:475:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:729:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:733:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:838:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:1511:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:1512:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:1546:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:1556:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:1559:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:1575:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:1607:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:1643:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:1649:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:2158:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/specctra_export.cpp:2176:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/specctra_export.cpp:2181:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/swig/python_scripting.cpp:153:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/swig/python_scripting.cpp:191:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/swig/python_scripting.cpp:227:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/tool_pcb.cpp:62:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/tools/pcbnew_control.cpp:888:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/tools/pcbnew_control.cpp:889:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcbnew/tools/pcbnew_control.cpp:892:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcbnew/tools/pcbnew_control.cpp:893:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+
+Hits = 104
+Lines analyzed = 210157 in 1.84 seconds (156680 lines/second)
+Physical Source Lines of Code (SLOC) = 129780
+Hits@level = [0]   0 [1]   0 [2]  93 [3]   0 [4]  11 [5]   0
+Hits@level+ = [0+] 104 [1+] 104 [2+] 104 [3+]  11 [4+]  11 [5+]   0
+Hits/KSLOC@level+ = [0+] 0.801356 [1+] 0.801356 [2+] 0.801356 [3+] 0.0847588 [4+] 0.0847588 [5+]   0
+Minimum risk level = 2
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!

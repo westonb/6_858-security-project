@@ -1,0 +1,114 @@
+Flawfinder version 1.27, (C) 2001-2004 David A. Wheeler.
+Number of dangerous functions in C/C++ ruleset: 160
+Examining ./kicad/pcb_calculator/transline/microstrip.h
+Examining ./kicad/pcb_calculator/transline/twistedpair.h
+Examining ./kicad/pcb_calculator/transline/microstrip.cpp
+Examining ./kicad/pcb_calculator/transline/rectwaveguide.cpp
+Examining ./kicad/pcb_calculator/transline/twistedpair.cpp
+Examining ./kicad/pcb_calculator/transline/stripline.h
+Examining ./kicad/pcb_calculator/transline/coplanar.h
+Examining ./kicad/pcb_calculator/transline/units.h
+Examining ./kicad/pcb_calculator/transline/transline.h
+Examining ./kicad/pcb_calculator/transline/rectwaveguide.h
+Examining ./kicad/pcb_calculator/transline/coax.h
+Examining ./kicad/pcb_calculator/transline/stripline.cpp
+Examining ./kicad/pcb_calculator/transline/c_microstrip.cpp
+Examining ./kicad/pcb_calculator/transline/c_microstrip.h
+Examining ./kicad/pcb_calculator/transline/transline.cpp
+Examining ./kicad/pcb_calculator/transline/coax.cpp
+Examining ./kicad/pcb_calculator/transline/coplanar.cpp
+Examining ./kicad/pcb_calculator/datafile_read_write.h
+Examining ./kicad/pcb_calculator/UnitSelector.cpp
+Examining ./kicad/pcb_calculator/pcb_calculator.cpp
+Examining ./kicad/pcb_calculator/colorcode.cpp
+Examining ./kicad/pcb_calculator/board_classes_values.cpp
+Examining ./kicad/pcb_calculator/units_scales.h
+Examining ./kicad/pcb_calculator/params_read_write.cpp
+Examining ./kicad/pcb_calculator/transline_ident.h
+Examining ./kicad/pcb_calculator/dialogs/dialog_regulator_data_base.cpp
+Examining ./kicad/pcb_calculator/dialogs/pcb_calculator_frame_base.h
+Examining ./kicad/pcb_calculator/dialogs/dialog_regulator_data_base.h
+Examining ./kicad/pcb_calculator/dialogs/pcb_calculator_frame_base.cpp
+Examining ./kicad/pcb_calculator/UnitSelector.h
+Examining ./kicad/pcb_calculator/datafile_read_write.cpp
+Examining ./kicad/pcb_calculator/pcb_calculator_frame.cpp
+Examining ./kicad/pcb_calculator/attenuators/attenuator_classes.h
+Examining ./kicad/pcb_calculator/attenuators/attenuator_classes.cpp
+Examining ./kicad/pcb_calculator/class_regulator_data.h
+Examining ./kicad/pcb_calculator/transline_dlg_funct.cpp
+Examining ./kicad/pcb_calculator/regulators_funct.cpp
+Examining ./kicad/pcb_calculator/electrical_spacing_values.cpp
+Examining ./kicad/pcb_calculator/tracks_width_versus_current.cpp
+Examining ./kicad/pcb_calculator/attenuators.cpp
+Examining ./kicad/pcb_calculator/transline_ident.cpp
+Examining ./kicad/pcb_calculator/pcb_calculator.h
+./kicad/pcb_calculator/transline/coax.cpp:226:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./kicad/pcb_calculator/transline/coax.cpp:243:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:378:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:404:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+./kicad/pcb_calculator/transline/coax.cpp:205:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcb_calculator/transline/coax.cpp:217:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./kicad/pcb_calculator/transline/coax.cpp:220:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./kicad/pcb_calculator/transline/coax.cpp:225:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcb_calculator/transline/coax.cpp:236:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./kicad/pcb_calculator/transline/coax.cpp:242:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:352:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:364:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:376:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:381:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:392:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:402:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+./kicad/pcb_calculator/transline/rectwaveguide.cpp:407:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+
+Hits = 17
+Lines analyzed = 10366 in 0.61 seconds (96160 lines/second)
+Physical Source Lines of Code (SLOC) = 6490
+Hits@level = [0]   0 [1]   0 [2]  13 [3]   0 [4]   4 [5]   0
+Hits@level+ = [0+]  17 [1+]  17 [2+]  17 [3+]   4 [4+]   4 [5+]   0
+Hits/KSLOC@level+ = [0+] 2.61941 [1+] 2.61941 [2+] 2.61941 [3+] 0.616333 [4+] 0.616333 [5+]   0
+Minimum risk level = 2
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
