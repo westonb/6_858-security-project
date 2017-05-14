@@ -1,0 +1,36 @@
+# reHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15 270 4)
+Flags(0x00d0)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)
+NetList()
+(
+	Net("SIG343" "(unknown)")
+	(
+		Connect("U6-2")
+		Connect("C6-3")
+	)
+	Net("SIG321" "(unknown)")
+	(
+		Connect("X1-4")
+		Connect("U6-1")
+		Connect("U5-14")
+		Connect("U4-4")
+		Connect("U2-28")
+		Connect("R")
+		Connect("C17-2")
+		Connect("C16-1")
+		Connect("C7-1")
+		Connect("C6-1")
+		Connect("C5-1")
+	)
+	
+)

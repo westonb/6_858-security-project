@@ -1,0 +1,58 @@
+in Stack Overflows:
+In id:000060,sig:06,src:000568+000602,op:splice,rep:4
+Buffer overflow though ParseRouteString, via stack located buffer "Name". Lack of index checking allows pointer arithmetic to exceed bounds of the buffer in for loop. 
+The base address of the buffer is above the other variables and the writes are continuous, so there is no way to bypass the stack canary with this vulnerability. 
+
+In Double Frees / corruption:
+In id:000000,sig:06,src:000000,op:havoc,rep:8
+Fault on freeing PCB data structure (file.c:488)
+Stepping through with GDB verifies that there is no second call to free(). Therefore this is some sort of heap corruption. 
+Valgrind verifies this is heap corruption and reveals cause as misc.c:ParseRouteString:1075
+This is a call to memset with the heap based buffer routeStyle. Value to be written is '0', so this has little potential for an exploit. 
+
+In id:000028,sig:11,src:000202+000390,op:splice,rep:16
+Same case as above, Valengrind used to identify the heap overflow
+Heap overflow at: parse_y.c:1695
+Function is YYSTACK_RELOCATE which is a parser macro that relocates the parser's stack to a larger buffer. It seems that there is some pointer math mistake or mis-sized buffer? I am not familiar enough with the parser framework, bison, to fully understand this.  
+
+
+In Segfaults:
+In id:000000,sig:11,src:000001,op:flip1,pos:108
+Out of bounds memory read. array pointer increments out of bounds searching for separator character that does not occur 
+at: misc.c:1183 
+can not be translated into memory write
+
+In id:000044,sig:11,src:000064,op:flip1,pos:86
+Out of bounds memory read. Invalid rtree structure passed into r_rearch
+at rtree.c:618
+Can not be translated into memory write
+
+In id:000048,sig:11,src:000442+000321,op:splice,rep:4
+Invalid polygonType pointed passed into InitClip. Accessing struct members causes segfault. 
+in polygon.c:1242
+can not be translated into memory write
+
+In id:000064,sig:11,src:000696,op:havoc,rep:8
+negative offset passed into strflags.c:set_layer_list, leading to writing of layer number below bounds of layer list. 
+Could possibly be translated into controlled memory write. 
+
+In id:000065,sig:11,src:000711,op:havoc,rep:4
+Same as above, different very large negative offset and layer number. This suggests that error be leveraged for relative memory writes. 
+
+In id:000067,sig:11,src:000011+000636,op:splice,rep:2
+Segfault through parser y file parse_y.y:206. Appears to be related to previously seen segfault in polygon clipping function.
+Can not be translated into memory write. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

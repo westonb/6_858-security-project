@@ -1,0 +1,9 @@
+# re.@LPHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15  70 4)
+Flags("4,5,6,c:1,2,3,s:inny,8,36,20")
+
+Symbol1,20:

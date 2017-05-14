@@ -1,0 +1,9 @@
+# reHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15  70 4)
+Flags("4,,6,c:1,2(3,s8-Si 0 0),40,35:Skinny,8,3,0")
+
+Symbol('!' a

@@ -1,0 +1,9 @@
+# reHA 70 4
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15  70 4)
+Flags("4,5,6,c:H,2,3,s:8:7,6,c:1,2,3dsSignal,10,40,20:Power,2,60,35:Fat,40,60,35:Skinny0,35:Skinny,8,36,0")
+
+Si

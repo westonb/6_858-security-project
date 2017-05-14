@@ -1,0 +1,8 @@
+# reHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 70 4)
+Flags("4,,6,c:1,2(3,s:$-ÿ<ÿcSign0,40,20:r,25,60,35&Fatdÿ0 L),2(³,s:$-ÿ<6,cSign0,40,20:r,25,6,40,60,wec:1,2(3,s8-Si ) 0),40,40Signal,=0,41,20:Powlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll")
+
+l('!

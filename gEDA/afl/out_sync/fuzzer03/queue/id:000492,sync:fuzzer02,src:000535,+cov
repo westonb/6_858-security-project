@@ -1,0 +1,8 @@
+# recb 1.70.ALPHA
+
+PCB("" 350. 3300)
+
+Grid(5 0 m 0)
+Cursor(15 270 4)
+Flags(0x000001d0)
+Groups("U2-28")

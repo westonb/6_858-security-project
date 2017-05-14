@@ -1,0 +1,27 @@
+start_time        : 1494208658
+last_update       : 1494269236
+fuzzer_pid        : 21173
+cycles_done       : 0
+execs_done        : 2047151
+execs_per_sec     : 29.74
+paths_total       : 688
+paths_favored     : 223
+paths_found       : 429
+paths_imported    : 257
+max_depth         : 3
+cur_path          : 85
+pending_favs      : 217
+pending_total     : 678
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 5.73%
+unique_crashes    : 49
+unique_hangs      : 0
+last_path         : 1494263035
+last_crash        : 1494252726
+last_hang         : 0
+execs_since_crash : 497729
+exec_timeout      : 80
+afl_banner        : fuzzer01
+afl_version       : 2.39b
+command_line      : afl-fuzz -m 1000 -i ./gEDA/afl/in/ -o ./gEDA/afl/out_sync/ -M fuzzer01 ./pcb/src/pcb @@

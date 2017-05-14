@@ -1,0 +1,7 @@
+# recb 1.7C0.ALPHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15 
+		Connect("C

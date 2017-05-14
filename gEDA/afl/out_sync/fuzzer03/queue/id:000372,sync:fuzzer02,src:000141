@@ -1,0 +1,9 @@
+# ree: pcb 1.7.0.ALPHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15 270 4)
+Flags(0x000001d0)
+Groups("44")
+		C1,2,

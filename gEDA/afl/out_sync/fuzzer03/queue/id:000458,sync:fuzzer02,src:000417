@@ -1,0 +1,13 @@
+# ree: pcb 1.7.0.ALPHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15 270 4)
+Flags(0x000001d0)
+Groups("5,6,c:1,2,4,5,6,c:1,2,3,s:8:7:")
+Styles("Signal,10,40,20:ower,25,60,3H:Fat,40,60,35:Skinny,8,36,20")
+
+Symbol('2 12)
+(
+	Symb 35ine(0 

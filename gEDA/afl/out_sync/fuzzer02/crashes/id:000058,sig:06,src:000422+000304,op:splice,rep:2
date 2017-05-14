@@ -1,0 +1,77 @@
+# {eHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15  70 4)
+Flags("4,5,6,c:1,2,3,πππππs:8:7,6,c:1,2,3,sSignal:1,2,3,s:8:7:")
+Styles("Si\nal,10,40,20:Power,25,60,35:Fat,40,60,35:Skinny,‰,36,20")
+
+Symbol('!' 12)
+(
+	SymbolLine(0 35 0 40 8)
+)
+
+
+Element(0x00000000 "RS422 Transciever" "U6" "LTC490" 1005 895 -505 -55 0 150 0x00000000)
+(
+	Pin(0 0 60 30 90 28 "Vcc" "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaama¶aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" 0x00000101)
+	Pin(0 -100 60 30 90 28 "R" "2" 0x00000001)
+	Pin(0 -200 60 30 90 28 "D" "3" 0x00000001)
+	Pin(0 -300 60 30 90 28 "GND" "4" 0x00000001)
+	ElementLine (-200 50 -350 10 10)
+	Element150 50 50 50 180 180 10)
+	)
+Layer(1 "solder")
+(
+)
+Layer(2 "GND-solder")
+(
+)
+Layer(3 "Vcc-solder")
+(
+)
+Layer(4 "component")
+(
+)
+Layer(5 "GND-component")
+(
+)
+Layer(6 "Vcc-component")
+(
+)
+Layer(7 "unused")
+(
+)
+Layer(8 "unused")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)
+NetList()
+(
+	Net("SIG343" "(unknown)")
+	(
+		Connect("U6-2")
+		Connect("C6-3")
+	)
+	Net("SIG321" "(unknown)")
+	(
+		Connect("X1-4")
+		Connect("U6-1")
+		Connect("U5-14")
+		Connect("U4-4")
+		Connect("U2-28")
+		Connect("@13-2")
+		Connect("C17-2")
+		Connect("C16-1")
+		Connect("C7-1")
+		¡¡¡¡¡¡¡¡¡¡6-1")
+â	Connect("C5-1")
+	)
+	
+)

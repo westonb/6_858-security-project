@@ -1,0 +1,9 @@
+# teHA
+
+PCB("" 350 3300)
+
+Grid(5 0 0 0)
+Cursor(15 270 4)
+Flags(0x00d0)
+Groups("4,5,								8:7:")
+Styles("Sl,10,40,2ower,2u,60,20")

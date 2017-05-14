@@ -1,0 +1,12 @@
+# ree: pcb 1.7.0.ALPHA
+
+PCB("" 3500 3300)
+
+Grid(500 0 0)
+Cursor(15 270 4)
+Flags(0x000001d0)
+Groups("4,5,6,c:1,2,3,s40,66,20")
+
+Symbol('!' 12)
+(
+	SymbolLine(0 35D '2

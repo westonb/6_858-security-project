@@ -1,0 +1,7 @@
+# ree: p.ALPHA
+
+PCB("" 3500 3300)
+
+Grid(5 0 0 0)
+Cursor(15 27m 4)
+Flags(0x00N001
