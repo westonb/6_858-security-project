@@ -1,6 +1,6 @@
 in Stack Overflows:
 In id:000060,sig:06,src:000568+000602,op:splice,rep:4
-Buffer overflow though ParseRouteString, via stack located buffer "Name". Lack of index checking allows pointer arithmetic to exceed bounds of the buffer in for loop. 
+Buffer overflow though ParseRouteString(misc.c:1014), via stack located buffer "Name". Lack of index checking allows pointer arithmetic to exceed bounds of the buffer in for loop. 
 The base address of the buffer is above the other variables and the writes are continuous, so there is no way to bypass the stack canary with this vulnerability. 
 
 In Double Frees / corruption:
